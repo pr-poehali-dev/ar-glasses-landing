@@ -93,10 +93,10 @@ export default function Index() {
   ];
 
   const galleryImages = [
-    { url: '/placeholder.svg', alt: 'Вид спереди' },
-    { url: '/placeholder.svg', alt: 'Вид сбоку' },
-    { url: '/placeholder.svg', alt: 'Использование' },
-    { url: '/placeholder.svg', alt: 'Детали' }
+    { url: 'https://images.unsplash.com/photo-1617802690658-1173a812650d?w=800&q=80', alt: 'Вид спереди' },
+    { url: 'https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?w=800&q=80', alt: 'Вид сбоку' },
+    { url: 'https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=800&q=80', alt: 'Использование' },
+    { url: 'https://images.unsplash.com/photo-1626387346567-67f8a774dba8?w=800&q=80', alt: 'Детали' }
   ];
 
   return (
@@ -155,7 +155,7 @@ export default function Index() {
               <div className="relative">
                 <div className="absolute inset-0 bg-primary/20 blur-[100px] rounded-full"></div>
                 <img 
-                  src="/placeholder.svg" 
+                  src="https://images.unsplash.com/photo-1617802690658-1173a812650d?w=1200&q=80" 
                   alt="AR Glasses" 
                   className="relative w-full h-auto rounded-2xl"
                 />
